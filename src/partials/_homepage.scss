@@ -1,0 +1,48 @@
+#homepage{
+
+ header{
+   .header-up{
+     @include bg-header-up;
+      padding: 7px 110px;
+     ul{
+       @include margin-padding-nav;
+       @include display-flex-end;
+       li{
+         margin-right: 20px;
+         a{
+           text-decoration: none;
+           color: $color-lightgrey;
+         }
+       }
+     }
+   }
+   .header-down{
+     @include bg-header-down;
+     padding: 10px 150px;
+     ul{
+       @include margin-padding-nav;
+       @include display-flex-around;
+       margin-right: 50px;
+       a{
+         text-decoration: none;
+         color: $color-white;
+         i{
+           vertical-align: middle;
+         }
+       }
+     }
+
+
+
+   }
+
+
+ }
+
+
+
+
+
+
+
+}

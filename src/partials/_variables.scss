@@ -1,0 +1,30 @@
+$bg-black: black;
+$bg-lightgrey:lightgrey;
+$color-lightgrey:lightgrey;
+$color-white:white;
+
+@mixin bg-header-up{
+ background-color: $bg-black;
+ color:$bg-lightgrey;
+}
+
+@mixin bg-header-down{
+ background-color: $bg-black;
+ color:$color-white;
+}
+
+@mixin display-flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin display-flex-end{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+@mixin margin-padding-nav{
+  list-style: none;
+  margin: 0;
+}

@@ -1,28 +1,28 @@
-#homepage header .header-up {
+div#homepage header .header-up {
   background-color: black;
   color: lightgrey;
   padding: 7px 110px;
 }
-#homepage header .header-up ul {
+div#homepage header .header-up ul {
   list-style: none;
   margin: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-#homepage header .header-up ul li {
+div#homepage header .header-up ul li {
   margin-right: 20px;
 }
-#homepage header .header-up ul li a {
+div#homepage header .header-up ul li a {
   text-decoration: none;
   color: lightgrey;
 }
-#homepage header .header-down {
+div#homepage header .header-down {
   background-color: black;
   color: white;
   padding: 10px 150px;
 }
-#homepage header .header-down ul {
+div#homepage header .header-down ul {
   list-style: none;
   margin: 0;
   display: flex;
@@ -30,12 +30,57 @@
   align-items: center;
   margin-right: 50px;
 }
-#homepage header .header-down ul a {
+div#homepage header .header-down ul a {
   text-decoration: none;
   color: white;
 }
-#homepage header .header-down ul a i {
+div#homepage header .header-down ul a img {
+  width: 70px;
+}
+div#homepage header .header-down ul a i {
   vertical-align: middle;
+}
+div#homepage main .section-1 {
+  padding: 20px 160px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/bg-painter-home.jpg");
+  background-size: cover;
+}
+div#homepage main .section-1 img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+div#homepage main .section-1 .margin {
+  margin: 0;
+}
+div#homepage main .section-1 .bold {
+  font-weight: bold;
+}
+div#homepage main .section-1 div.button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+div#homepage main .section-1 div.button .bg-black {
+  background-color: black;
+  border: 1px solid black;
+  margin-right: 20px;
+  padding: 5px 15px;
+}
+div#homepage main .section-1 div.button .bg-black a {
+  color: white;
+  text-decoration: none;
+}
+div#homepage main .section-1 div.button .bg-brown {
+  background-color: #ECD79E;
+  border: 1px solid black;
+  padding: 5px 15px;
+}
+div#homepage main .section-1 div.button .bg-brown a {
+  color: black;
+  text-decoration: none;
 }
 
 * {

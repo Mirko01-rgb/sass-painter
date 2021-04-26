@@ -1,7 +1,11 @@
 $bg-black: black;
 $bg-lightgrey:lightgrey;
+$bg-brown:#ECD79E;
 $color-lightgrey:lightgrey;
 $color-white:white;
+$color-black:black;
+
+
 
 @mixin bg-header-up{
  background-color: $bg-black;
@@ -27,4 +31,10 @@ $color-white:white;
 @mixin margin-padding-nav{
   list-style: none;
   margin: 0;
+}
+
+@mixin display-flex-start{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
 }
